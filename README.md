@@ -26,3 +26,12 @@
 	9092 is default kafka server port
 
 5. For publishing Raw(other than string) objects we need to configure key serializer, value serializer, boostrap configurations.
+
+6. List all topics,
+
+	> 	Add kafka bin/windows to env path
+	>	C:\Users\SK098144>kafka-topics.bat --bootstrap-server localhost:9092 --list
+	>	C:\Users\SK098144>kafka-topics.bat --bootstrap-server localhost:9092 --topic OBJECT-MESSAGE-KAFKA-TOPIC --describe
+	
+{{< figure src="/kafkapublisherdemo/src/img/img1.PNG
+/kafkapublisherdemo/src/main/resources/images/img1.PNG" >}}
