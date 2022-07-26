@@ -33,5 +33,5 @@
 	>	C:\Users\SK098144>kafka-topics.bat --bootstrap-server localhost:9092 --list
 	>	C:\Users\SK098144>kafka-topics.bat --bootstrap-server localhost:9092 --topic OBJECT-MESSAGE-KAFKA-TOPIC --describe
 	
-{{< figure src="/kafkapublisherdemo/src/img/img1.PNG
-/kafkapublisherdemo/src/main/resources/images/img1.PNG" >}}
+<p align="center"><img src="/kafkapublisherdemo/src/main/resources/images/img1.PNG" ></p>
+{{< figure src="/kafkapublisherdemo/src/main/resources/images/img1.PNG" >}}
